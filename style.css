@@ -1,18 +1,44 @@
 body {
     font-family: Arial, sans-serif; /* Yazı tipi ailesi */
-    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    font-size: 15px; /* <p></p> etiketindeki ana yazının boyutu */
     background-color: #f7f5f5; /* Web sayfasının arka plan rengi */
-    color: #070707; /* Metin rengi */
-}
+    color: #000000; /* Metin rengi *//
+    }
 
 h1 {
-    color: #bb2e39; /* Başlık rengi */
-    font-size: 24px; /* Başlık yazı tipi boyutu */
-    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
-}
+    color: #000000; /* Başlık rengi */
+    font-size: 15px; /* Başlık yazı tipi boyutu */
+    font-family:"Verdana", Sans-Serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    
+    }
+
+h2 {
+    color: #2398e6; /* Başlık rengi */
+    font-size: 16px; /* Başlık yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    }
 
 h3 {
-    color: #000000; /* Başlık rengi */
-    font-size: 17px; /* Başlık yazı tipi boyutu */
+    color: #2398e6; /* Başlık rengi */
+    font-size: 16px; /* Başlık yazı tipi boyutu */
     font-family: Arial, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
-}
+    }
+
+h4 {
+    color: #2398e6; /* Başlık rengi */
+    font-size: 16px; /* Başlık yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    }
+
+p  {
+    color: #000000; /* Paragraf metin rengi */
+    font-size: 12px; /* Paragraf yazı tipi boyutu */
+    font-family: Verdana, sans-serif; /* Paragrafta kullanılan yazı tipi ailesi */
+    border-bottom: 1.5px solid #000000; /* Başlığın altına çizgi ekler */
+    padding-bottom: 10px; /* Paragrafın alt boşluğu */
+    }
+
+hr  {
+    border:none ; /* Çizgi kenarlıklarını kaldırır */
+    border-bottom: 1.5px solid #000000; /* Çizgi altına alt kenarlık ekler */
+    }
