@@ -13,7 +13,7 @@ def information():
     return '<p>' + random.choice(informations) + '</p>'
 
 @app.route("/emoji")
-def emoji_olusturucu():
+def emoji_generator():
     emoji = ["\U0001f600", "\U0001f642", "\U0001F606", "\U0001F923"]
     return random.choice(emoji)
 
