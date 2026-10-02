@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 15px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #f7f5f5; /* Web sayfasının arka plan rengi */
+    color: #000000; /* Metin rengi *//
+    }
+
+
+h1 
+    {
+    color: #000000; /* Başlık rengi */
+    font-size: 15px; /* Başlık yazı tipi boyutu */
+    font-family:"Verdana", sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */ 
+    }
+
+h1:hover {animation: color-change 3s ;}
+        
+
+h2 {
+    color: #2398e6; /* Başlık rengi */
+    font-size: 16px; /* Başlık yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    }
+h2:hover {animation: color-change_2 1s ;}
+
+h3 {
+    color: #2398e6; /* Başlık rengi */
+    font-size: 16px; /* Başlık yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    }
+
+h3:hover {animation: color-change_2 1s ;}
+
+h4 {
+    color: #2398e6; /* Başlık rengi */
+    font-size: 16px; /* Başlık yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    }
+
+h4:hover {animation: color-change_2 1s ;}
+
+p  {
+    color: #000000; /* Paragraf metin rengi */
+    font-size: 12px; /* Paragraf yazı tipi boyutu */
+    font-family: Verdana, sans-serif; /* Paragrafta kullanılan yazı tipi ailesi */
+    border-bottom: 1.5px solid #000000; /* Başlığın altına çizgi ekler */
+    padding-bottom: 10px; /* Paragrafın alt boşluğu */
+    }
+
+
+hr  {
+    border:none ; /* Çizgi kenarlıklarını kaldırır */
+    border-bottom: 1.5px solid #000000; /* Çizgi altına alt kenarlık ekler */
+    }
+
+
+
+@keyframes color-change 
+{
+  0%   { color: rgba(0, 0, 0, 0.286); }
+  25%  { color: rgb(31, 31, 31); }
+  50%  { color: rgb(74, 74, 74); }
+  75%  { color: rgb(97, 85, 77); }
+  100% { color: rgb(37, 37, 37); }
+}
+
+@keyframes color-change_2 
+{
+  0%   { color: rgba(175, 207, 241, 0.901); }
+  25%  { color: rgb(120, 176, 237); }
+  50%  { color: rgb(83, 151, 227); }
+  75%  { color: rgb(74, 143, 223); }
+  100% { color: #2398e6; }
+}
